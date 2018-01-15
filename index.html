@@ -25,6 +25,9 @@
 
    <link rel="stylesheet" href="./build/css/main.css">
 
+   <link rel="stylesheet" href="./style/css/main.scss">
+
+
    <!--JS-->  
   <script src="js/modernizr.custom.js"></script>
   <script src="js/modernizr.js"></script> <!-- Modernizr -->
@@ -44,8 +47,7 @@
 #welcome {
   background: transparent;
   margin-top:-138%;
-  padding-top:0%;
-  padding-bottom:14%;
+
 
   /*-ms-transform: skew(0deg,-6deg);
   -webkit-transform: skew(0deg,-6deg); 
@@ -74,11 +76,10 @@
 </style>
 
 
-
 <body>
 
 
-      <img src="images/purplered_bg.svg" alt="purple red gradient" class="img-fluid gradbg" style="background-size: cover">
+      <img src="images/purplered_bg.svg" alt="purple red gradient" class="img-fluid gradbg">
 
   <!--Opening Section--> 
 
@@ -96,16 +97,6 @@
         <h1>
           Function
         </h1>
-
-
-        <h1>
-          Hi Sabah!
-        </h1>
-
-         <h1>
-          Please work!
-        </h1>
-
 
         <p>A relationship-focused design and development agency.</p>
 
@@ -151,15 +142,13 @@
 
 
 
-  <section id="beliefs" class="offset-md-1 col-md-10" style="background: #fff"> <!--BELIEFS section-->
+  <section id="beliefs" class="offset-md-1 col-md-10"> <!--BELIEFS section-->
 
-      <div class="offset-md-1 col-md-10">
+      <div class="beliefstext">
 
         <h3>We Believe</h3>
 
         <p class="webelieve">Our work is focused on people, for people. We approach everything through systems design processes and outcomes, and our process is collaborative and immersive.</p>
-
-      </div>
 
 
       <ul class="list-unstyled belieficons offset-md-1 col-md-10">
@@ -188,7 +177,8 @@
             <h4>People  <span>Powered</span></h4> 
               <p>We make change by pairing smart technology with committed individuals and groups</p>
         </li>
-
+      </ul>
+    </div>
   </section>
 
 
@@ -201,13 +191,13 @@
   <section id="rituals" class="container-fluid">
 
 
-    <article class="row">
+    <article class="row humancentered">
 
       <div class="col-md-6">
         <img src="images/humancentered.jpg" alt="human-centered design" class="img-fluid">
       </div>
 
-      <div class="col-md-6" class="humancentered">
+      <div class="col-md-6">
         <h2>Centered on You</h2>
 
         <p>We create human-centered experiences that empower communities, companies, and most importantly, you.</p>      
@@ -279,7 +269,7 @@
     <article class="partnership row">
 
       <div class="col-md-6">
-        <img src="images/inparallel.jpg" alt="In Parallel" class="img-fluid"> 
+        <img src="images/inparallel.png" alt="In Parallel" class="img-fluid"> 
       </div>     
 
     <div class="col-md-6">
@@ -301,7 +291,6 @@
   <section id="services" class="container-fluid">
   <div class="row">
 
-
       <div class="offset-md-1 col-md-6">
         <h1>We design and develop elegant, intuitive, and reliable user experiences</h1>  
       </div>     
@@ -322,8 +311,7 @@
         <li>Quality Assurance</li>
         <li>Test Automation</li>  
       </ul>
-
-
+    
     </div>   <!--End Row-->
 
 
@@ -449,7 +437,6 @@
 </div> <!--End Container-->
 
 
-
 </body>
 
 
@@ -477,6 +464,5 @@
   <script src="js/bootstrap.min.js"></script> 
 
 
-</body>
 
 </html>

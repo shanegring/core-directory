@@ -44,28 +44,38 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
 */
 
 h1 {
-  font-size: 2em;
-  /* 2x body copy size = 32px */
+  font-size: 3.9em;
   line-height: 1.25;
-  /* 45px / 36px */
+  font-family: "freight-display-pro", serif;
+  font-weight: 900;
+  letter-spacing: 0.5px;}
+
+  #welcome {
+    color: #fff;  
+  }
+
+  #services{
+    color: #D85B56;
+    margin-left: 0.2em;
+    z-index: 3;
+
 }
 
 
 @include media ('>tablet') {
   h1 {
-    font-size: 2.5em;
+    font-size: 4.2em;
     /* 2.5x body copy size = 40px */
     line-height: 1.125;
   }
+
 }
 
 
 @include media ('>desktop') {
   h1 {
-    font-size: 2.5em;
-    /* 3x body copy size = 48px 
+  font-size: 5.75em;
     line-height: 1.25;
-    /* keep to a multiple of the 20px line height and something more appropriate for display headings */
   }
 }
 
