@@ -9255,6 +9255,42 @@ select.selectpicker {
   float: none;
 }
 
+.highlight {
+  background-color: #f7f7f9;
+}
+
+.highlight pre {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: transparent;
+  border: 0;
+}
+
+.nt {
+  color: #2f6f9f;
+}
+
+.na {
+  color: #4f9fcf;
+}
+
+.s {
+  color: #d44950;
+}
+
+.nc {
+  color: #0a8;
+}
+
+.nl {
+  color: #99f;
+}
+
+.m {
+  color: #f60;
+}
+
 h1, h2, h3, h4, h5, h6, th, td, input, textarea, select, option, legend, fieldset, button, optgroup {
   font-family: "freight-display-pro", serif;
   font-style: normal;
@@ -9488,4 +9524,76 @@ b, strong {
 #beliefs span {
   font-size: 0.5em;
   display: inline;
+}
+
+.highlight {
+  background-color: #f7f7f9;
+}
+
+.highlight pre {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: transparent;
+  border: 0;
+}
+
+.nt {
+  color: #2f6f9f;
+}
+
+.na {
+  color: #4f9fcf;
+}
+
+.s {
+  color: #d44950;
+}
+
+.nc {
+  color: #0a8;
+}
+
+.nl {
+  color: #99f;
+}
+
+.m {
+  color: #f60;
+}
+
+.highlight {
+  background-color: #f7f7f9;
+}
+
+.highlight pre {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: transparent;
+  border: 0;
+}
+
+.nt {
+  color: #2f6f9f;
+}
+
+.na {
+  color: #4f9fcf;
+}
+
+.s {
+  color: #d44950;
+}
+
+.nc {
+  color: #0a8;
+}
+
+.nl {
+  color: #99f;
+}
+
+.m {
+  color: #f60;
 }
