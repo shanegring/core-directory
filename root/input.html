@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<!--[if IE 8]--> <html class="ie8 ie_old" lang="en"> <!--[endif]-->
+
+<head>
+  <meta charset = "UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Welcome to Function</title>
+
+  <!--Favicon
+  <link rel="icon" type="image/png" href="images/box.png">-->
+
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous"> 
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+   <!-- Typekit -->
+   <link rel="stylesheet" href="https://use.typekit.net/qyt6pox.css">
+
+     <!--CSS Main-->
+   <link rel="stylesheet" type="text/css" href="css/styles.css" >
+
+   <link rel="stylesheet" href="./build/css/main.css">
+
+   <!--JS-->  
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/modernizr.js"></script> <!-- Modernizr -->
+  <noscript><link rel="stylesheet" type="text/css" href="css/noJS.css"/></noscript>
+
+</head>
+
+<style>
+
+.highlight {
+  
+    background-color: #f7f7f9;
+}
+
+.highlight pre {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: transparent;
+    border: 0;
+}
+
+.nt {
+    color: #2f6f9f;
+}
+
+.na {
+    color: #4f9fcf;
+}
+
+.s {
+    color: #d44950;
+}
+
+.nc {
+    color: #0a8;
+}
+
+.nl {
+    color: #99f;
+}
+
+.m {
+    color: #f60;
+}
+
+</style>
+
+
+  <body>
+
+          <ul class="nav">
+             <li><a class="nav-link active" href="style-guide.html">Typography</a></li>
+            <li><a class="nav-link" href="buttons.html">Buttons</a></li>
+            <li><a class="nav-link" href="cards.html">Cards</a></li>
+            <li><a class="nav-link" href="input.html">Inputs</a></li>
+            <li><a class="nav-link" href="badges.html">Badges</a></li>
+            <li><a class="nav-link" href="#join"></a></li>
+          </ul>
+        </div> 
+    </ul>
+    
+     <div class="row">
+      <div class="col-md-8 offset-md-2" style="padding-top: 5%; padding-bottom: 5%">
+      
+        <h1>Input Groups</h1>
+        
+       </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <h3>Basic</h3>
+        <div class="input-group">
+          <span class="input-group-addon" id="basic-addon1">@</span>
+          <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+        </div>
+        <br>
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2">
+          <span class="input-group-addon" id="basic-addon2">@example.com</span>
+        </div>
+        <br>
+        <label for="basic-url">Your vanity URL</label>
+        <div class="input-group">
+          <span class="input-group-addon" id="basic-addon3">https://example.com/users/</span>
+          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+        </div>
+        <br>
+        <div class="input-group">
+          <span class="input-group-addon">$</span>
+          <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+          <span class="input-group-addon">.00</span>
+        </div>
+        <br>
+        <div class="input-group">
+          <span class="input-group-addon">$</span>
+          <span class="input-group-addon">0.00</span>
+          <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+        </div>   
+      </div>
+      
+    </div>
+    
+    <div class="row">
+      <div class="col-md-8 offset-md-2" style="padding-top: 30px">
+        <h3>Sizing</h3>
+        <div class="input-group input-group-lg">
+          <span class="input-group-addon" id="sizing-addon1">@</span>
+          <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
+        </div>
+        <br>
+        <div class="input-group">
+          <span class="input-group-addon" id="sizing-addon2">@</span>
+          <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon2">
+        </div>
+      </div>
+       
+    </div>
+    
+    <div class="row">
+      <div class="col-md-8 offset-md-2" style="padding-top: 30px">
+        <h3>Checkboxes and radio addons</h3>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="input-group">
+              <span class="input-group-addon">
+                <input type="checkbox" aria-label="Checkbox for following text input">
+              </span>
+              <input type="text" class="form-control" aria-label="Text input with checkbox">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="input-group">
+              <span class="input-group-addon">
+                <input type="radio" aria-label="Radio button for following text input">
+              </span>
+              <input type="text" class="form-control" aria-label="Text input with radio button">
+            </div>
+          </div>
+        </div>
+      
+      <div class="row">
+        <div class="col-md-8 offset-md-2" style="padding-top: 30px">
+          <h3>Multiple addons</h3>
+          
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="input-group">
+                <span class="input-group-addon">
+                  <input type="checkbox" aria-label="Checkbox for following text input">
+                </span>
+                <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" aria-label="Text input with checkbox">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="input-group">
+                <span class="input-group-addon">$</span>
+                <span class="input-group-addon">0.00</span>
+                <input type="text" class="form-control" aria-label="Text input with radio button">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+       <div class="row">
+        <div class="col-md-8 offset-md-2" style="padding-top: 30px">
+          <h3>Button addons</h3>
+          
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="input-group">
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary" type="button">Go!</button>
+                </span>
+                <input type="text" class="form-control" placeholder="Search for...">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary" type="button">Go!</button>
+                </span>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-lg-offset-3 col-lg-6">
+              <div class="input-group">
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary" type="button">Hate it</button>
+                </span>
+                <input type="text" class="form-control" placeholder="Product name">
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary" type="button">Love it</button>
+                </span>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+       <div class="row">
+        <div class="col-md-8 offset-md-2" style="padding-top: 30px">
+          <h3>Buttons with dropdowns</h3>
+          
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="input-group">
+                <div class="input-group-btn">
+                  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Action
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div role="separator" class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                  </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with dropdown button">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="input-group">
+                <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                <div class="input-group-btn">
+                  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Action
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div role="separator" class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+      </div>
+    </div>
+      
+      <div class="row">
+        <div class="col-md-8 offset-md-2" style="padding-top: 30px">
+          <h3>Segmented buttonss</h3>
+          
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="input-group">
+                <div class="input-group-btn">
+                  <button type="button" class="btn btn-secondary">Action</button>
+                  <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="sr-only">Toggle Dropdown</span>
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div role="separator" class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                  </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with segmented button dropdown">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="input-group">
+                <input type="text" class="form-control" aria-label="Text input with segmented button dropdown">
+                <div class="input-group-btn">
+                  <button type="button" class="btn btn-secondary">Action</button>
+                  <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="sr-only">Toggle Dropdown</span>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div role="separator" class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+    
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+  </body>
+</html>
+
