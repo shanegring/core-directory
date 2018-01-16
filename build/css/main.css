@@ -9256,60 +9256,6 @@ select.selectpicker {
   float: none;
 }
 
-/*WELCOME
-.gradbg {
-  z-index: -11111;
-}
-
-
-#welcome {
-  background: transparent;
-  padding-top: 3em;
-  margin-top:-142%;
-  margin-left: 2%;
-  padding-left: 0em;
-}
-
-.welcometext {
-  color: $white;
-    padding-bottom: 9em;
-}
-
-#welcome h1 {
-  font-weight: 900;
-  letter-spacing: 0.5px;
-  color: $white;
-}
-
-#welcome p {
-  letter-spacing: 1px;
-  font-size: 1em;
-}
-
-
-
-@media (max-width: 575.99px) {
-  #welcome{
-    margin-top:-120%;}
-}
-
-#beliefs {
-  background: #FFFAF0;
-  color: $purple;
-  text-align: center;
-  padding: 3em 1.5em;
-}
-
-#beliefs h3 {
-  letter-spacing: 0.5px;
-  line-height: 150%;
-}
-
-#beliefs span {
-  font-size: 0.5em;
-  display: inline;
-}
-*/
 h1, h2, h3, h4, h5, h6, th, td, input, textarea, select, option, legend, fieldset, button, optgroup {
   font-family: "freight-display-pro", serif;
   font-style: normal;
@@ -9419,7 +9365,7 @@ h3 {
   font-family: "Roboto Mono", monospace;
   font-size: 2em;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   /* 1.375x body copy size = 22px */
   line-height: 1.2;
   /* 25px / 22px */
@@ -9445,7 +9391,7 @@ h4 {
   font-family: "freight-display-pro", serif;
   font-weight: 700;
   font-size: 1.8em;
-  letter-spacing: 0.5px;
+  letter-spacing: 0px;
   line-height: 120%;
   /* 1.125x body copy size = 18px */
 }
@@ -9458,12 +9404,14 @@ h4 {
 }
 
 h5 {
+  font-family: "Roboto Mono", monospace;
   font-size: 1em;
   /* 1.125x body copy size = 18px */
   line-height: 1.0;
 }
 
 h6 {
+  font-family: "Roboto Mono", monospace;
   font-size: .6em;
   /* 1.125x body copy size = 18px */
   line-height: 1em;
@@ -9475,6 +9423,10 @@ h6 {
     line-height: 1em;
     /* (22px / 18px */
   }
+}
+
+.form-group {
+  font-family: "Roboto Mono", monospace;
 }
 
 p {
