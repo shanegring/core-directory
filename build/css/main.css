@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
-@import url(sabah_styles.css);
+@import url(vendor-extentions/sabah_styles.css);
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -2195,22 +2195,22 @@ pre code {
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #636c72;
+  color: #999;
   opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #636c72;
+  color: #999;
   opacity: 1;
 }
 
 .form-control::-ms-input-placeholder {
-  color: #636c72;
+  color: #999;
   opacity: 1;
 }
 
 .form-control::placeholder {
-  color: #636c72;
+  color: #999;
   opacity: 1;
 }
 
@@ -8933,7 +8933,7 @@ select.selectpicker {
 }
 
 .bootstrap-select > .dropdown-toggle.bs-placeholder, .bootstrap-select > .dropdown-toggle.bs-placeholder:hover, .bootstrap-select > .dropdown-toggle.bs-placeholder:focus, .bootstrap-select > .dropdown-toggle.bs-placeholder:active {
-  color: #636c72;
+  color: #999;
 }
 
 .bootstrap-select > select {
@@ -9256,114 +9256,6 @@ select.selectpicker {
   float: none;
 }
 
-.highlight {
-  background-color: #f7f7f9;
-}
-
-.highlight pre {
-  padding: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  background-color: transparent;
-  border: 0;
-}
-
-.nt {
-  color: #2f6f9f;
-}
-
-.na {
-  color: #4f9fcf;
-}
-
-.s {
-  color: #d44950;
-}
-
-.nc {
-  color: #0a8;
-}
-
-.nl {
-  color: #99f;
-}
-
-.m {
-  color: #f60;
-}
-
-.highlight {
-  background-color: #f7f7f9;
-}
-
-.highlight pre {
-  padding: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  background-color: transparent;
-  border: 0;
-}
-
-.nt {
-  color: #2f6f9f;
-}
-
-.na {
-  color: #4f9fcf;
-}
-
-.s {
-  color: #d44950;
-}
-
-.nc {
-  color: #0a8;
-}
-
-.nl {
-  color: #99f;
-}
-
-.m {
-  color: #f60;
-}
-
-.highlight {
-  background-color: #f7f7f9;
-}
-
-.highlight pre {
-  padding: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  background-color: transparent;
-  border: 0;
-}
-
-.nt {
-  color: #2f6f9f;
-}
-
-.na {
-  color: #4f9fcf;
-}
-
-.s {
-  color: #d44950;
-}
-
-.nc {
-  color: #0a8;
-}
-
-.nl {
-  color: #99f;
-}
-
-.m {
-  color: #f60;
-}
-
 h1, h2, h3, h4, h5, h6, th, td, input, textarea, select, option, legend, fieldset, button, optgroup {
   font-family: "freight-display-pro", serif;
   font-style: normal;
@@ -9548,4 +9440,40 @@ blockquote {
 
 b, strong {
   font-weight: 700;
+}
+
+.highlight {
+  background-color: #f7f7f9;
+}
+
+.highlight pre {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: transparent;
+  border: 0;
+}
+
+.nt {
+  color: #2f6f9f;
+}
+
+.na {
+  color: #4f9fcf;
+}
+
+.s {
+  color: #d44950;
+}
+
+.nc {
+  color: #0a8;
+}
+
+.nl {
+  color: #99f;
+}
+
+.m {
+  color: #f60;
 }
