@@ -9270,7 +9270,6 @@ select.selectpicker {
 }
 
 .welcometext {
-  font-size: 1em;
   color: #fff;
   padding-bottom: 9em;
 }
@@ -9306,7 +9305,6 @@ select.selectpicker {
 }
 
 #beliefs h3 {
-  font-weight: 700;
   letter-spacing: 0.5px;
   line-height: 150%;
 }
@@ -9367,7 +9365,6 @@ h1 {
 
 h1 #welcome {
   color: #fff;
-  font-size: 77em;
 }
 
 h1 #services {
@@ -9389,6 +9386,10 @@ h1 #services {
     font-size: 5.75em;
     line-height: 1.25;
   }
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 h2 {
