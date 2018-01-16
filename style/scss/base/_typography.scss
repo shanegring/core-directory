@@ -1,11 +1,6 @@
 
-$white: #ffffff;
-$indigo: #38138E;
-$red: #D85B56;
-$blue: #6AB7E1;
 
-
-@import "./imports/variables";
+@import "./abstracts/variables";
 
 h1, h2, h3, h4, h5, h6, th, td, input, textarea, select, option, legend, fieldset, button, optgroup  {
 font-family: "freight-display-pro", serif;
@@ -17,9 +12,23 @@ font-family: "Roboto Mono", monospace;
 }
 
 body {
+  background:  $white;
+}
+
+
+ul {
+
+}
+
+body {
   font-size: 100%;
   max-width: 100%;
   overflow-x: hidden; 
+}
+
+mark {
+   background-color: $blue;
+   color: #fff;
 }
 
 .nooverflow{
