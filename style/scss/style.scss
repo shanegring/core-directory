@@ -1,5 +1,7 @@
 $white: #ffffff;
 $indigo: #38138E;
+$red: #D85B56;
+$blue: #6AB7E1;
 
 
 body {
@@ -7,7 +9,7 @@ body {
 }
 
 mark {
-   background-color: #6AB7E1;
+   background-color: $blue;
    color: #fff;
 }
 
@@ -22,12 +24,9 @@ nav {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color:#fff;
+  color:$white;
 }
 
-.nav-link.active {
-  color: #6AB7E1;
-}
 
 /*nav menu button*/
 
@@ -208,7 +207,7 @@ h2 {
 
 #rituals {
   padding:2em 1em;
-  margin-top: 0%;
+  margin-top: -7%;
 }
 
 #rituals article {
@@ -221,13 +220,13 @@ h2 {
 }
 
 .experience{
-  background: #6AB7E1;
+  background: $blue;
   color:white;
   padding: 0.5em;
 }
 
  .datadesign {
-  background: #D85B56;
+  background: $red;
   color:white;
   padding: 0.5em;
 }
@@ -269,7 +268,7 @@ h2 {
   letter-spacing: 1px;
   line-height: 180%;
   font-size: 1em;
-  color: #D85B56;
+  color: $red;
 
 
 
@@ -281,7 +280,7 @@ h2 {
 }
 
 #services h1 {
-  color: #D85B56;
+  color: $red;
   line-height: 100%;
   margin-left: 0.2em;
   z-index: 3;
@@ -307,30 +306,30 @@ h2 {
   padding: 4em 3em;
   padding-top: 5em;
   margin-top: -10%;
-  color: #38138E;
+  color: $indigo;
   text-align: center;
 }
 
 #believers h3 {
-  color: #38138E;
+  color: $indigo;
 }
 
 #believers h4 {
-  color: #38138E; 
+  color: $indigo; 
 }
 
 
 .btn-primary {
-  background-color: #38138E;  
-  border: 2px solid #38138E;  
+  background-color: $indigo;  
+  border: 2px solid $indigo;  
   border-radius: 0em;
   padding: 1em 3em;
 }
 
 .btn-primary:hover {
   background: #FFFAF0;
-  border: 2px solid #38138E;
-  color: #38138E; 
+  border: 2px solid $indigo;
+  color: $indigo; 
 }
 
 
@@ -353,6 +352,7 @@ form {
 
 .form-group {
   padding-bottom: 1em;
+  font-family: "Roboto Mono", monospace;  
 }
 
 label {
@@ -364,7 +364,7 @@ label {
 /*FOOTER*/
 
 .function-foot {
-  background: #38138E;  
+  background: $indigo;  
   color: #FFFAF0;
   font-family: "Roboto Mono", monospace;
   letter-spacing: 1px;
