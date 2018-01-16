@@ -46,9 +46,9 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
 h1 {
   font-size: 3.9em;
   line-height: 1.25;
-  font-family: "freight-display-pro", serif;
+  font-family: "Freight display pro", serif;
   font-weight: 900;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
 
   #welcome {
     color: #fff; }
@@ -84,7 +84,10 @@ h1 {
 
 
 h2 {
-  font-size: 1.625em;
+  font-family: "freight-display-pro", serif;
+  font-weight: 900; 
+  letter-spacing: 0.5px;
+  font-size: 2em;
   /* 1.625x body copy size = 26px */
   line-height: 1.15384615;
   /* 30px / 26px */
@@ -94,7 +97,7 @@ h2 {
 
 @include media ('>tablet') {
   h2 {
-    font-size: 2em;
+    font-size: 2.2em;
     /* 2x body copy size = 32px */
     line-height: 1.25;
   }
@@ -111,7 +114,10 @@ h2 {
 
 
 h3 {
-  font-size: 1.175em;
+  font-family: "Roboto Mono", monospace;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   /* 1.375x body copy size = 22px */
   line-height: 1.2;
   /* 25px / 22px */
