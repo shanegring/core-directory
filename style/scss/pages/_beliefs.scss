@@ -20,12 +20,11 @@
 
 .beliefstext {
   color: #000;
-
   -ms-transform: skew(0deg,6deg); 
-    -webkit-transform: skew(0deg,6deg); 
-    transform: skew(0deg,6deg); 
-    position:relative;
-    z-index:1; 
+  -webkit-transform: skew(0deg,6deg); 
+  transform: skew(0deg,6deg); 
+  position:relative;
+  z-index:1; 
 
 }
 
@@ -36,7 +35,7 @@
 @include media ('>tablet') {
 
   #beliefs{   
-    margin-top: 27%;}
+    margin-top: -5%;}
 
   .webelieve {
     padding: 0.5em 1em;}
