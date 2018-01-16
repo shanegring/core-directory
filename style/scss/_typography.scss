@@ -126,7 +126,7 @@ h3 {
 
 @include media ('>tablet') {
   h3 {
-    font-size: 1.5em;
+    font-size: 2.5em;
     /* 1.5x body copy size = 24px */
     line-height: 1.25;
   }
@@ -135,7 +135,7 @@ h3 {
 
 @include media ('>desktop') {
   h3 {
-    font-size: 1.55em;
+    font-size: 2.55em;
     /* 1.75x body copy size = 28px */
     line-height: 1.583;
   }
@@ -143,16 +143,18 @@ h3 {
 
 
 h4 {
-  font-size: 1.125em;
+  font-family: "freight-display-pro", serif;
+  font-weight: 700; 
+  font-size: 1.8em;
+  letter-spacing: 0.5px;
+  line-height: 120%;
   /* 1.125x body copy size = 18px */
-  line-height: 1.11111111;
 }
 
 
 @include media ('>tablet') {
   h4 {
-    line-height: 1.22222222;
-    /* (22px / 18px */
+    line-height: 130%;    /* (22px / 18px */
   }
 }
 
