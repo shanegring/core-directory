@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+@import url(sabah_styles.css);
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -9291,6 +9292,78 @@ select.selectpicker {
   color: #f60;
 }
 
+.highlight {
+  background-color: #f7f7f9;
+}
+
+.highlight pre {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: transparent;
+  border: 0;
+}
+
+.nt {
+  color: #2f6f9f;
+}
+
+.na {
+  color: #4f9fcf;
+}
+
+.s {
+  color: #d44950;
+}
+
+.nc {
+  color: #0a8;
+}
+
+.nl {
+  color: #99f;
+}
+
+.m {
+  color: #f60;
+}
+
+.highlight {
+  background-color: #f7f7f9;
+}
+
+.highlight pre {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: transparent;
+  border: 0;
+}
+
+.nt {
+  color: #2f6f9f;
+}
+
+.na {
+  color: #4f9fcf;
+}
+
+.s {
+  color: #d44950;
+}
+
+.nc {
+  color: #0a8;
+}
+
+.nl {
+  color: #99f;
+}
+
+.m {
+  color: #f60;
+}
+
 h1, h2, h3, h4, h5, h6, th, td, input, textarea, select, option, legend, fieldset, button, optgroup {
   font-family: "freight-display-pro", serif;
   font-style: normal;
@@ -9342,6 +9415,12 @@ h1 {
 
 h1 #welcome {
   color: #fff;
+}
+
+h1 #services {
+  color: #D85B56;
+  margin-left: 0.2em;
+  z-index: 3;
 }
 
 @media (min-width: 769px) {
@@ -9469,130 +9548,4 @@ blockquote {
 
 b, strong {
   font-weight: 700;
-}
-
-#welcome {
-  background: #FFFAF0;
-  color: #38138E;
-  padding-bottom: 3em;
-  padding-top: 3em;
-  padding-left: 1.7em;
-}
-
-.welcometext {
-  color: #38138E;
-  font-size: 1em;
-}
-
-#welcome h1 {
-  font-weight: 900;
-  letter-spacing: 0.5px;
-  color: #38138E;
-}
-
-#welcome p {
-  letter-spacing: 1px;
-  font-size: 1em;
-  color: #38138E;
-}
-
-#welcome {
-  background: #FFFAF0;
-  color: #38138E;
-}
-
-#beliefs h2 {
-  text-transform: uppercase;
-  color: #38138E;
-  letter-spacing: 2px;
-}
-
-#beliefs {
-  background: #FFFAF0;
-  color: #38138E;
-  text-align: center;
-  padding: 3em 1.5em;
-}
-
-#beliefs h3 {
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  line-height: 150%;
-}
-
-#beliefs span {
-  font-size: 0.5em;
-  display: inline;
-}
-
-.highlight {
-  background-color: #f7f7f9;
-}
-
-.highlight pre {
-  padding: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  background-color: transparent;
-  border: 0;
-}
-
-.nt {
-  color: #2f6f9f;
-}
-
-.na {
-  color: #4f9fcf;
-}
-
-.s {
-  color: #d44950;
-}
-
-.nc {
-  color: #0a8;
-}
-
-.nl {
-  color: #99f;
-}
-
-.m {
-  color: #f60;
-}
-
-.highlight {
-  background-color: #f7f7f9;
-}
-
-.highlight pre {
-  padding: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  background-color: transparent;
-  border: 0;
-}
-
-.nt {
-  color: #2f6f9f;
-}
-
-.na {
-  color: #4f9fcf;
-}
-
-.s {
-  color: #d44950;
-}
-
-.nc {
-  color: #0a8;
-}
-
-.nl {
-  color: #99f;
-}
-
-.m {
-  color: #f60;
 }
