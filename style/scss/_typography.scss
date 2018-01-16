@@ -13,12 +13,12 @@ font-family: "Roboto Mono", monospace;
 
 body {
   font-size: 100%;
-	max-width: 100%;
-  overflow-x: hidden;	
+  max-width: 100%;
+  overflow-x: hidden; 
 }
 
 .nooverflow{
-	overflow:hidden;
+  overflow:hidden;
 }
 
 body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
@@ -48,17 +48,18 @@ h1 {
   line-height: 1.25;
   font-family: "freight-display-pro", serif;
   font-weight: 900;
-  letter-spacing: 0.5px;}
+  letter-spacing: 0.5px;
 
   #welcome {
     color: #fff;  
+      font-size: 77em;
   }
 
   #services{
     color: #D85B56;
     margin-left: 0.2em;
     z-index: 3;
-
+  }
 }
 
 
@@ -174,7 +175,7 @@ h6 {
 
 
 p {
-  font-size: .8rem;
+  font-size: 0.8rem;
   line-height: 1rem;
 }
 
@@ -210,65 +211,7 @@ blockquote {
 
 
 b,strong{
-	font-weight:700;
+  font-weight:700;
 }
-
-
-
-
-#welcome {
-  background: $creme;
-  color: $purple;
-  padding-bottom: 3em;
-  padding-top: 3em;
-  padding-left: 1.7em;
-}
-
-.welcometext {
-  color: $purple;
-  font-size: 1em;
-}
-
-#welcome h1 {
-  font-weight: 900;
-  letter-spacing: 0.5px;
-  color: $purple;
-}
-
-#welcome p {
-  letter-spacing: 1px;
-  font-size: 1em;
-  color: $purple;
-}
-
-#welcome {
-  background: #FFFAF0;
-  color: $purple;
-}
-
-#beliefs h2 {
-  text-transform: uppercase;
-  color: $purple;
-  letter-spacing: 2px;
-}
-
-#beliefs {
-  background: #FFFAF0;
-  color: $purple;
-  text-align: center;
-  padding: 3em 1.5em;
-}
-
-#beliefs h3 {
-  font-weight: 700; 
-  letter-spacing: 0.5px;
-  line-height: 150%;
-}
-
-#beliefs span {
-  font-size: 0.5em;
-  display: inline;
-}
-
 
 
