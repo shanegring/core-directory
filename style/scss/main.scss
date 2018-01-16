@@ -9,10 +9,6 @@
 @import './vendors/include-media/dist/include-media';
 @import './vendors/bootstrap-select/dist/bootstrap-select';
 
-@import 'base/reset';
-@import 'base/typography';
-@import 'base/general';
-@import 'base/style';
 
 @import 'layout/navigation';
 @import 'layout/grid';
@@ -32,5 +28,11 @@
 
 @import 'themes/theme';
 @import 'themes/admin';
+
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/general';
+@import 'base/style';
+
 
 @import 'vendor-extentions/sabah_styles.css';
