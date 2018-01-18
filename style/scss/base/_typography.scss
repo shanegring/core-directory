@@ -102,7 +102,7 @@ h2 {
 
 @include media ('>tablet') {
   h2 {
-    font-size: 2.2em;
+    font-size: 2.5em;
     /* 2x body copy size = 32px */
     line-height: 1.25;
   }
@@ -111,7 +111,7 @@ h2 {
 
 @include media ('>desktop') {
   h2 {
-    font-size: 2.25em;
+    font-size: 3em;
     /* 2.25x body copy size = 36px */
     line-height: 1.25;
   }

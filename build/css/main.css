@@ -9300,8 +9300,8 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
 h1 {
   font-size: 3.9em;
   line-height: 1.25;
-  font-family: "Freight display pro", serif;
-  font-weight: 900;
+  font-family: "freight-display-pro", serif;
+    font-weight: 900;
   letter-spacing: 1px;
 }
 
@@ -9342,12 +9342,12 @@ h2 {
   /* 1.625x body copy size = 26px */
   line-height: 1.15384615;
   /* 30px / 26px */
-  letter-spacing: 2px;
+  letter-spacing: 0.5px;
 }
 
 @media (min-width: 769px) {
   h2 {
-    font-size: 2.2em;
+    font-size: 2.5em;
     /* 2x body copy size = 32px */
     line-height: 1.25;
   }
@@ -9355,7 +9355,7 @@ h2 {
 
 @media (min-width: 1025px) {
   h2 {
-    font-size: 2.25em;
+    font-size: 3em;
     /* 2.25x body copy size = 36px */
     line-height: 1.25;
   }
@@ -9463,3 +9463,7 @@ blockquote {
 b, strong {
   font-weight: 700;
 }
+
+
+@import './style/main';
+

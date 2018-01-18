@@ -2,7 +2,7 @@ $white: #ffffff;
 $indigo: #38138E;
 $red: #D85B56;
 $blue: #6AB7E1;
-
+$creme: #FFFAF0;
 
 body {
   background:  $white;
@@ -54,7 +54,7 @@ nav {
 
 #welcome {
   background: transparent;
-  margin-top:-140%;
+  margin-top:-180%;
   padding-top:0%;
   padding-bottom:14%;
 }
@@ -251,14 +251,11 @@ h2 {
   background: #FFFAF0;
   padding: 8em 1em;
 
-
   -ms-transform: skew(0deg,6deg);
   -webkit-transform: skew(0deg,6deg); 
   transform: skew(0deg,6deg); /* Standard syntax */
 
 }
-
-
 
 
 #services ul {

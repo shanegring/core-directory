@@ -58,7 +58,7 @@ nav {
 
 #welcome {
   background: transparent;
-  margin-top:-110%;
+  margin-top:-137%;
   padding-top:0%;
   padding-bottom:14%;
 
@@ -84,6 +84,7 @@ nav {
 .welcomelist {
 	font-family: "Roboto Mono", monospace;
 	font-size: 1em;
+	letter-spacing: 1px;
 }
 
 .welcomelist li {
@@ -91,7 +92,7 @@ nav {
 }
 
 
-/*
+
 h1 {
   font-family: "freight-display-pro", serif;
   font-weight: 900;
@@ -137,8 +138,9 @@ h3 {
 #beliefs {
 	background: #FFF;
 	text-align: center;
-	padding: 8em 1.5em;
-	margin-top: 5%;
+	padding: 9em 1.5em;
+	margin-top: 10%;
+	padding-bottom: 7em;
 
   -ms-transform: skew(0deg,-6deg);
   -webkit-transform: skew(0deg,-6deg); 
@@ -148,6 +150,7 @@ h3 {
 
 .beliefstext {
 	color: #000;
+
 
 	-ms-transform: skew(0deg,6deg); 
     -webkit-transform: skew(0deg,6deg); 
@@ -159,7 +162,10 @@ h3 {
 
 .webelieve {
 	padding: 0.5em 6em;
+		line-height: 220%;
+
 }
+
 
 @media (max-width: 575.99px) {
 
@@ -196,12 +202,14 @@ h4 {
 	float: left;
 	padding: 0.5em;
 
-	
   -ms-transform: skew(0deg,0deg);
   -webkit-transform: skew(0deg,0deg); 
   transform: skew(0deg,0deg); /* Standard syntax */
 }
 
+.belieficons li p {
+	font-size: 0.86em;
+}
 
 
 
@@ -213,13 +221,9 @@ h2 {
 	font-family: "freight-display-pro", serif;
 	font-weight: 900;	
 	letter-spacing: 0.5px;
-	font-size: 2.2em;
+	font-size: 3em;
 }
 
-#rituals {
-	padding:2em 1em;
-	margin-top: 0%;
-}
 
 #rituals article {
 	padding-top: 3em;
@@ -242,10 +246,17 @@ h2 {
 	padding: 0.5em;
 }
 
+#rituals p {
+	line-height: 210%;
+}
 
+#rituals h2{
+	margin-top: 4.5em;
+}
 
-
-
+.centeredtext {
+	padding: 4em;
+}
 
 
 
