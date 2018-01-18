@@ -9258,7 +9258,7 @@ select.selectpicker {
 }
 
 h1, h2, h3, h4, h5, h6, th, td, input, textarea, select, option, legend, fieldset, button, optgroup {
-  font-family: "freight-display-pro", serif;
+  font-family: "Roboto Mono", monospace;
   font-style: normal;
 }
 
