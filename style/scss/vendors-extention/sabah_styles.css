@@ -74,10 +74,6 @@ nav {
 }
 
 
-/* SASS*/
-@media (max-width: 575.99px) {
-
-}
 
 
 .welcomelist {
@@ -96,33 +92,22 @@ h1 {
   font-family: "freight-display-pro", serif;
   font-weight: 900;
   letter-spacing: 0.5px;
-  font-size: 5em;
+  font-size: 3.9em;
 }
 
 
 #welcome h1 {
   color: #fff; 	
-  font-size: 5.75em;
 }
 
 #welcome p {
   font-family: "Roboto Mono", monospace;
   letter-spacing: 1px;
-  font-size: 1em;
+  font-size: 0.9em;
   color: #fff; 
 }
 
 
-/* SASS*/
-@media (max-width: 575.99px) {
-
-	h1 {   
-		font-size: 3.9em;}
-
-	#welcome {
-		font-size: 0.9em;}
-
-}
 
 
 /*BELIEFS*/
@@ -138,7 +123,7 @@ h3 {
 	background: #FFF;
 	text-align: center;
 	padding: 9em 1.5em;
-	margin-top: 10%;
+	margin-top: 27%;
 	padding-bottom: 7em;
 
   -ms-transform: skew(0deg,-6deg);
@@ -150,7 +135,6 @@ h3 {
 .beliefstext {
 	color: #000;
 
-
 	-ms-transform: skew(0deg,6deg); 
     -webkit-transform: skew(0deg,6deg); 
     transform: skew(0deg,6deg); 
@@ -160,21 +144,11 @@ h3 {
 }
 
 .webelieve {
-	padding: 0.5em 6em;
-		line-height: 220%;
+	padding: 0.5em 1em;	
+	line-height: 220%;
 
 }
 
-
-@media (max-width: 575.99px) {
-
-	#beliefs{   
-		margin-top: 27%;}
-
-	.webelieve {
-		padding: 0.5em 1em;}
-
-}
 
 h4 {
 	font-family: "freight-display-pro", serif;
@@ -223,10 +197,12 @@ h2 {
 	font-size: 3em;
 }
 
-
 #rituals article {
-	padding-top: 3em;
-	padding-bottom: 3em;
+	padding:2em;
+}
+
+#rituals img {
+	padding-bottom: 2em;
 }
 
 .humancentered {
@@ -246,13 +222,13 @@ h2 {
 }
 
 #rituals p {
-	line-height: 210%;
+	line-height: 200%;
+	font-size: 0.9em;
 }
 
 
-.centeredtext {
-	padding: 4em;
-}
+
+
 
 
 
@@ -397,8 +373,29 @@ label {
 	#welcome{
   		margin-top:-136%;}
 
+  	#welcome p {
+  		font-size: 1em;}
+
+	h1 {   
+		 font-size: 6em;}
+
+	#beliefs{   
+		margin-top: 10%;}
+
+	.webelieve {
+		padding: 0.5em 6em;}
+
+	#rituals p {
+		line-height: 220%;
+		font-size: 1em;}
+
 	#rituals h2{
-		margin-top: 4em;}
+		margin-top: 3em;
+		line-height: 100%;}
+
+	#rituals img {
+		padding: 0em;
+	}		
 
 	#services ul {
   		margin-top: 46%;
