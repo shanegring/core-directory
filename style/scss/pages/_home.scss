@@ -1,0 +1,87 @@
+body {
+	background:  #fff;
+}
+
+p {
+	font-family: "Roboto Mono", monospace;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	line-height: 200%;
+}
+
+mark {
+   background-color: #6AB7E1;
+   color: #fff;
+}
+
+
+.gradbg {
+	z-index: -11111;
+}
+
+
+/*WELCOME*/
+
+#welcome {
+  background: transparent;
+  margin-top:-127%;
+  padding-top:0%;
+  padding-bottom:14%;
+
+  /*-ms-transform: skew(0deg,-6deg);
+  -webkit-transform: skew(0deg,-6deg); 
+  transform: skew(0deg,-6deg); /* Standard syntax */
+}
+
+
+.welcometext{
+	color: #fff; 
+	margin-left: 8%;
+}
+
+
+
+
+.welcomelist {
+	font-family: "Roboto Mono", monospace;
+	font-size: 1em;
+	letter-spacing: 1px;
+}
+
+.welcomelist li {
+		padding-bottom: 0.4em;
+}
+
+
+
+h1 {
+  font-family: "freight-display-pro", serif;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  font-size: 3.9em;
+}
+
+
+#welcome h1 {
+  color: #fff; 	
+}
+
+#welcome p {
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+  color: #fff; 
+}
+
+
+
+
+@media (min-width: 992px) {
+
+	#welcome{
+  		margin-top:-136%;}
+
+  	#welcome p {
+  		font-size: 1em;}
+
+}

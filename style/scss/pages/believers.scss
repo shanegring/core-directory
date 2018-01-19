@@ -1,0 +1,60 @@
+
+
+/*BELIEVERS*/
+
+#believers {
+	background: #FFFAF0;
+	padding: 4em 3em;
+	padding-top: 5em;
+	color: #38138E;
+	margin-top: -32%;
+	text-align: center;
+}
+
+#believers p {
+	line-height: 220%;
+}
+
+#believers h3 {
+	color: #38138E;
+}
+
+#believers h4 {
+	color: #38138E;	
+}
+
+.clients img {
+	padding: 1em;
+}
+.clients li{
+	display: inline;
+	float: left;
+	padding: 1.2em;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+
+.clients img {
+	padding: 0.5em;}
+
+.clients li{
+	display: inline;
+	float: left;
+	padding: 1.2em;
+}
+
+
+
+
+@media (min-width: 992px) {
+
+
+	#believers {
+		padding: 6em 0em;
+		margin-top: -8%;}
+
+}
