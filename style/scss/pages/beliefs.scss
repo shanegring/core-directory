@@ -1,0 +1,104 @@
+
+/*BELIEFS*/
+
+h3 {
+	font-family: "Roboto Mono", monospace;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+#beliefs {
+	background: #FFF;
+	text-align: center;
+	padding: 9em 0em;
+	margin-top: 27%;
+	padding-bottom: 7em;
+
+  -ms-transform: skew(0deg,-6deg);
+  -webkit-transform: skew(0deg,-6deg); 
+  transform: skew(0deg,-6deg); /* Standard syntax */
+
+}
+
+.beliefstext {
+	color: #000;
+
+	-ms-transform: skew(0deg,6deg); 
+    -webkit-transform: skew(0deg,6deg); 
+    transform: skew(0deg,6deg); 
+    position:relative;
+    z-index:1; 
+
+}
+
+.webelieve {
+	padding: 0.5em 1em;	
+	line-height: 220%;}
+
+
+h4 {
+	font-family: "freight-display-pro", serif;
+	font-weight: 700;	
+	font-size: 1.8em;
+	letter-spacing: 0.5px;
+	line-height: 120%;
+}
+
+
+#beliefs span {
+	font-size: 0.5em;
+	display: inline;
+}
+
+.belieficons img {
+	padding: 2.5em;
+}
+
+
+.belieficons li{
+	display: inline;
+	float: left;
+	padding: 2em;
+
+  -ms-transform: skew(0deg,0deg);
+  -webkit-transform: skew(0deg,0deg); 
+  transform: skew(0deg,0deg); /* Standard syntax */
+}
+
+.belieficons li p {
+	font-size: 0.86em;
+	line-height: 200%;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+
+.belieficons img {
+	padding: 1em;}
+
+
+.belieficons li{
+	display: inline;
+	float: left;
+	margin:0em;}
+
+}
+
+
+
+
+@media (min-width: 992px) {
+
+	#beliefs{   
+		margin-top: 10%;}
+
+	.webelieve {
+		padding: 0.5em 6em;}
+
+}
+
+

@@ -1,0 +1,61 @@
+
+/*RITUALS*/
+
+h2 {
+	font-family: "freight-display-pro", serif;
+	font-weight: 900;	
+	letter-spacing: 0.5px;
+	font-size: 3em;
+}
+
+#rituals {
+	padding-bottom: 3em;
+}
+
+#rituals article {
+	padding:1em;
+	padding-top: 2em;
+}
+
+#rituals img {
+	margin-bottom: 2em;
+}
+
+.humancentered {
+	background: #fff;
+}
+
+.experience{
+	background: #6AB7E1;
+	color:white;
+	padding: 0.5em;
+}
+
+.datadesign {
+	background: #D85B56;
+	color:white;
+	padding: 0.5em;
+}
+
+#rituals p {
+	line-height: 200%;
+	font-size: 0.9em;
+}
+
+
+@media (min-width: 992px) {
+
+	#rituals {
+		padding-bottom: 0em;}
+
+	#rituals p {
+		line-height: 220%;
+		font-size: 1em;}
+
+	#rituals h2{
+		margin-top: 3em;
+		line-height: 100%;}
+
+	#rituals img {
+		padding: 0em;}		
+}

@@ -1,5 +1,3 @@
-
-
 @import 'abstracts/variables';
 @import 'abstracts/functions';
 @import 'abstracts/mixins';
@@ -22,9 +20,6 @@
 @import 'components/dropdown';
 @import 'components/media';
 
-@import 'pages/home';
-@import 'pages/contact';
-
 @import 'themes/theme';
 @import 'themes/admin';
 
@@ -32,5 +27,11 @@
 @import 'base/typography';
 @import 'base/general';
 @import 'base/style';
+
+@import 'pages/home';
+@import 'pages/beliefs';
+@import 'pages/rituals';
+@import 'pages/services';
+@import 'pages/believers';
 
 @import 'vendors-extention/sabah_styles.css';

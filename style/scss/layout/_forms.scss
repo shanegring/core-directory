@@ -1,0 +1,33 @@
+form {
+	text-align: left;
+	letter-spacing: 1px;
+	padding-bottom: 3em;
+	padding-top: 5em;
+}
+
+.form-group {
+	padding-bottom: 1em;
+}
+
+input {
+	font-size: 0.8em;
+}
+
+label {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+
+.btn-primary {
+	background-color: #38138E;	
+	border: 2px solid #38138E;	
+	border-radius: 0em;
+	padding: 1em 3em;
+}
+
+.btn-primary:hover {
+	background: #FFFAF0;
+	border: 2px solid #38138E;
+	color: #38138E;	
+}
