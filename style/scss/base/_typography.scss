@@ -2,12 +2,12 @@
 
 @import "./abstracts/variables";
 
-h1, h2, h3, h4, h5, h6, th, td, input, textarea, select, option, legend, fieldset, button, optgroup  {
+h1, h2,  h4, h5, h6, th, td, select, option, legend, fieldset, button, optgroup  {
 font-family: "freight-display-pro", serif;
 font-style: normal;
 }
 
-body, p {
+body, p, h3, input, textarea {
 font-family: "Roboto Mono", monospace;
 }
 
@@ -60,7 +60,6 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
 h1 {
   font-size: 3.9em;
   line-height: 1.25;
-  font-family: "Freight display pro", serif;
   font-weight: 900;
   letter-spacing: 1px;
 
@@ -98,7 +97,6 @@ h1 {
 
 
 h2 {
-  font-family: "freight-display-pro", serif;
   font-weight: 900; 
   letter-spacing: 0.5px;
   font-size: 2em;
@@ -128,7 +126,6 @@ h2 {
 
 
 h3 {
-  font-family: "Roboto Mono", monospace;
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -157,7 +154,6 @@ h3 {
 
 
 h4 {
-  font-family: "freight-display-pro", serif;
   font-weight: 700; 
   font-size: 1.8em;
   letter-spacing: 0px;
@@ -174,7 +170,6 @@ h4 {
 
 
 h5 {
-  font-family: "Roboto Mono", monospace;
   font-size: 1em;
   /* 1.125x body copy size = 18px */
   line-height: 1.0;
@@ -182,7 +177,6 @@ h5 {
 
 
 h6 {
-  font-family: "Roboto Mono", monospace;
   font-size: .6em;
   /* 1.125x body copy size = 18px */
   line-height: 1em;
@@ -191,7 +185,6 @@ h6 {
 
 @include media ('>tablet') {
   h6 {
-  font-family: "Roboto Mono", monospace;    
     font-size: 1em;
     line-height: 1em;
     /* (22px / 18px */
@@ -205,7 +198,6 @@ h6 {
 
 
 p {
-  font-family: "Roboto Mono", monospace;
   font-size: 1em;
   letter-spacing: 0.5px;
   line-height: 200%;

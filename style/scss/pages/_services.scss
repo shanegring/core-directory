@@ -24,8 +24,8 @@
   font-style: italic;
   letter-spacing: 1px;
   line-height: 180%;
-  font-size: 1em;
   color: $red;
+
   -ms-transform: skew(0deg,-6deg); 
     -webkit-transform: skew(0deg,-6deg); 
     transform: skew(0deg,-6deg); 
@@ -38,6 +38,7 @@
   line-height: 100%;
   margin-left: 0.2em;
   z-index: 3;
+
   -ms-transform: skew(0deg,-6deg); 
     -webkit-transform: skew(0deg,-6deg); 
     transform: skew(0deg,-6deg); 
