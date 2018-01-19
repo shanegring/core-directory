@@ -5,7 +5,9 @@ $red: #D85B56;
 $blue: #6AB7E1;
 
 
-@import "./imports/variables";
+@import "./abstracts/variables";
+@import './vendors/include-media/dist/include-media';
+
 
 h1, h2, h3, h4, h5, h6, th, td, input, textarea, select, option, legend, fieldset, button, optgroup  {
 font-family: "freight-display-pro", serif;

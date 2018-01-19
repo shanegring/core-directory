@@ -36,7 +36,7 @@
 
 
 
-@media (min-width: 768px) {
+@include media ('>desktop') {
 
 .clients img {
 	padding: 0.5em;}
@@ -46,11 +46,11 @@
 	float: left;
 	padding: 1.2em;
 }
+}
 
 
 
-
-@media (min-width: 992px) {
+@include media ('>desktop') {
 
 
 	#believers {

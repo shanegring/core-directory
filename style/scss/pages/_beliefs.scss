@@ -75,7 +75,7 @@ h4 {
 
 
 
-@media (min-width: 768px) {
+@include media ('>tablet') {
 
 .belieficons img {
 	padding: 1em;}
@@ -91,7 +91,7 @@ h4 {
 
 
 
-@media (min-width: 992px) {
+@include media ('>desktop') {
 
 	#beliefs{   
 		margin-top: 10%;}

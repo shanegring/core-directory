@@ -50,7 +50,8 @@
 }
 
 
-@media (min-width: 992px) {
+
+@include media ('>desktop') {
 
 
   #services ul {
@@ -65,7 +66,8 @@
 }
 
 
-@media (min-width: 1025px) and (max-width: 1213px ) {
+
+@include media ('>desktop') {
 
   #services ul {
       margin-top: 46%;

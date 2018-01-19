@@ -5,7 +5,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
-@import url(sabah_styles.css);
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -2195,22 +2194,22 @@ pre code {
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #636c72;
+  color: #999;
   opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #636c72;
+  color: #999;
   opacity: 1;
 }
 
 .form-control::-ms-input-placeholder {
-  color: #636c72;
+  color: #999;
   opacity: 1;
 }
 
 .form-control::placeholder {
-  color: #636c72;
+  color: #999;
   opacity: 1;
 }
 
@@ -2586,16 +2585,15 @@ fieldset[disabled] a.btn {
 }
 
 .btn-primary {
-  background-color: #38138E;  
-  border: 2px solid #38138E;  
-  border-radius: 0em;
-  padding: 1em 3em;
+  color: #fff;
+  background-color: #0275d8;
+  border-color: #0275d8;
 }
 
 .btn-primary:hover {
-  background: #FFFAF0;
-  border: 2px solid #38138E;
-  color: #38138E; 
+  color: #fff;
+  background-color: #025aa5;
+  border-color: #01549b;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -8934,7 +8932,7 @@ select.selectpicker {
 }
 
 .bootstrap-select > .dropdown-toggle.bs-placeholder, .bootstrap-select > .dropdown-toggle.bs-placeholder:hover, .bootstrap-select > .dropdown-toggle.bs-placeholder:focus, .bootstrap-select > .dropdown-toggle.bs-placeholder:active {
-  color: #636c72;
+  color: #999;
 }
 
 .bootstrap-select > select {
@@ -9258,7 +9256,7 @@ select.selectpicker {
 }
 
 h1, h2, h3, h4, h5, h6, th, td, input, textarea, select, option, legend, fieldset, button, optgroup {
-  font-family: "Roboto Mono", monospace;
+  font-family: "freight-display-pro", serif;
   font-style: normal;
 }
 
@@ -9301,8 +9299,8 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
 h1 {
   font-size: 3.5em;
   line-height: 1.25;
-  font-family: "freight-display-pro", serif;
-    font-weight: 900;
+  font-family: "Freight display pro", serif;
+  font-weight: 900;
   letter-spacing: 1px;
 }
 
@@ -9343,7 +9341,7 @@ h2 {
   /* 1.625x body copy size = 26px */
   line-height: 1.15384615;
   /* 30px / 26px */
-  letter-spacing: 0.5px;
+  letter-spacing: 2px;
 }
 
 @media (min-width: 769px) {
@@ -9465,6 +9463,747 @@ b, strong {
   font-weight: 700;
 }
 
+.highlight {
+  background-color: #f7f7f9;
+}
 
-@import './style/main';
+.highlight pre {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: transparent;
+  border: 0;
+}
 
+.nt {
+  color: #2f6f9f;
+}
+
+.na {
+  color: #4f9fcf;
+}
+
+.s {
+  color: #d44950;
+}
+
+.nc {
+  color: #0a8;
+}
+
+.nl {
+  color: #99f;
+}
+
+.m {
+  color: #f60;
+}
+
+body {
+  background: #ffffff;
+}
+
+mark {
+  background-color: #6AB7E1;
+  color: #fff;
+}
+
+nav {
+  background: #38138E;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+/*nav menu button*/
+.navbar-toggler {
+  border: none;
+  background-color: none;
+}
+
+.navbar-toggler-icon span {
+  background-color: white;
+}
+
+.navbar-nav li {
+  padding-right: 1em;
+}
+
+.gradbg {
+  z-index: -11111;
+}
+
+/*WELCOME*/
+#welcome {
+  background: transparent;
+  margin-top: -180%;
+  padding-top: 0%;
+  padding-bottom: 14%;
+}
+
+.welcometext {
+  color: #fff;
+  margin-left: 8%;
+}
+
+/* SASS*/
+@media (max-width: 575.99px) {
+  #welcome {
+    margin-top: -93%;
+  }
+}
+
+.welcomelist {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1em;
+}
+
+.welcomelist li {
+  padding-bottom: 0.4em;
+}
+
+h1 {
+  font-family: "freight-display-pro", serif;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  font-size: 5em;
+}
+
+#welcome h1 {
+  color: #fff;
+  font-size: 5.75em;
+}
+
+#welcome p {
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 1px;
+  font-size: 1em;
+  color: #fff;
+}
+
+/* SASS*/
+@media (max-width: 575.99px) {
+  h1 {
+    font-size: 3.9em;
+  }
+  #welcome {
+    font-size: 0.9em;
+  }
+}
+
+/*BELIEFS*/
+h3 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#beliefs {
+  background: #FFF;
+  text-align: center;
+  padding: 8em 1.5em;
+  margin-top: 5%;
+  -webkit-transform: skew(0deg, -6deg);
+  transform: skew(0deg, -6deg);
+  /* Standard syntax */
+}
+
+.beliefstext {
+  color: #000;
+  -webkit-transform: skew(0deg, 6deg);
+  transform: skew(0deg, 6deg);
+  position: relative;
+  z-index: 1;
+}
+
+.webelieve {
+  padding: 0.5em 6em;
+}
+
+@media (max-width: 575.99px) {
+  #beliefs {
+    margin-top: 27%;
+  }
+  .webelieve {
+    padding: 0.5em 1em;
+  }
+}
+
+h4 {
+  font-family: "freight-display-pro", serif;
+  font-weight: 700;
+  font-size: 1.8em;
+  letter-spacing: 0.5px;
+  line-height: 120%;
+}
+
+#beliefs span {
+  font-size: 0.5em;
+  display: inline;
+}
+
+.belieficons img {
+  padding: 2.5em;
+}
+
+.belieficons li {
+  display: inline;
+  float: left;
+  padding: 0.5em;
+  -webkit-transform: skew(0deg, 0deg);
+  transform: skew(0deg, 0deg);
+  /* Standard syntax */
+}
+
+/*RITUALS*/
+h2 {
+  font-family: "freight-display-pro", serif;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  font-size: 2.2em;
+}
+
+#rituals {
+  padding: 2em 1em;
+  margin-top: -7%;
+}
+
+#rituals article {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.humancentered {
+  background: #fff;
+}
+
+.experience {
+  background: #6AB7E1;
+  color: white;
+  padding: 0.5em;
+}
+
+.datadesign {
+  background: #D85B56;
+  color: white;
+  padding: 0.5em;
+}
+
+/*SERVICES*/
+.handy img {
+  opacity: 0.2;
+  z-index: -3;
+  margin-top: -24em;
+  padding-left: 2em;
+}
+
+#services {
+  background: #FFFAF0;
+  padding: 8em 1em;
+  -webkit-transform: skew(0deg, 6deg);
+  transform: skew(0deg, 6deg);
+  /* Standard syntax */
+}
+
+#services ul {
+  padding: 1.5em;
+  padding-top: 9em;
+  margin-left: -38%;
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 180%;
+  font-size: 1em;
+  color: #D85B56;
+  -webkit-transform: skew(0deg, -6deg);
+  transform: skew(0deg, -6deg);
+  position: relative;
+  z-index: 1;
+}
+
+#services h1 {
+  color: #D85B56;
+  line-height: 100%;
+  margin-left: 0.2em;
+  z-index: 3;
+  -webkit-transform: skew(0deg, -6deg);
+  transform: skew(0deg, -6deg);
+  position: relative;
+  z-index: 1;
+}
+
+/*BELIEVERS*/
+#believers {
+  background: #FFFAF0;
+  padding: 4em 3em;
+  padding-top: 5em;
+  margin-top: -10%;
+  color: #38138E;
+  text-align: center;
+}
+
+#believers h3 {
+  color: #38138E;
+}
+
+#believers h4 {
+  color: #38138E;
+}
+
+.btn-primary {
+  background-color: #38138E;
+  border: 2px solid #38138E;
+  border-radius: 0em;
+  padding: 1em 3em;
+}
+
+.btn-primary:hover {
+  background: #FFFAF0;
+  border: 2px solid #38138E;
+  color: #38138E;
+}
+
+.clients img {
+  padding: 1em;
+}
+
+.clients li {
+  display: inline;
+  float: left;
+  padding: 1.5em;
+}
+
+form {
+  text-align: left;
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 1px;
+  padding-bottom: 3em;
+  padding-top: 5em;
+}
+
+.form-group {
+  padding-bottom: 1em;
+  font-family: "Roboto Mono", monospace;
+}
+
+label {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/*FOOTER*/
+.function-foot {
+  background: #38138E;
+  color: #FFFAF0;
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 1px;
+  font-size: 0.8em;
+  padding: 5em 3em;
+}
+
+nav {
+  background: #38138E;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.nav-link.active {
+  color: #6AB7E1;
+}
+
+/*nav menu button*/
+.navbar-toggler {
+  border: none;
+  background-color: none;
+}
+
+.navbar-toggler-icon span {
+  background-color: white;
+}
+
+.navbar-nav li {
+  padding-right: 1em;
+}
+
+/*FOOTER*/
+.function-foot {
+  background: #38138E;
+  color: #FFFAF0;
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 1px;
+  font-size: 0.8em;
+  padding: 5em 3em;
+}
+
+form {
+  text-align: left;
+  letter-spacing: 1px;
+  padding-bottom: 3em;
+  padding-top: 5em;
+}
+
+.form-group {
+  padding-bottom: 1em;
+}
+
+input {
+  font-size: 0.8em;
+}
+
+label {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.btn-primary {
+  background-color: #38138E;
+  border: 2px solid #38138E;
+  border-radius: 0em;
+  padding: 1em 3em;
+}
+
+.btn-primary:hover {
+  background: #FFFAF0;
+  border: 2px solid #38138E;
+  color: #38138E;
+}
+
+body {
+  background: #fff;
+}
+
+p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 200%;
+}
+
+mark {
+  background-color: #6AB7E1;
+  color: #fff;
+}
+
+.gradbg {
+  z-index: -11111;
+}
+
+/*WELCOME*/
+#welcome {
+  background: transparent;
+  margin-top: -127%;
+  padding-top: 0%;
+  padding-bottom: 14%;
+  /*-ms-transform: skew(0deg,-6deg);
+  -webkit-transform: skew(0deg,-6deg); 
+  transform: skew(0deg,-6deg); /* Standard syntax */
+}
+
+.welcometext {
+  color: #fff;
+  margin-left: 8%;
+}
+
+.welcomelist {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+
+.welcomelist li {
+  padding-bottom: 0.4em;
+}
+
+h1 {
+  font-family: "freight-display-pro", serif;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  font-size: 3.9em;
+}
+
+#welcome h1 {
+  color: #fff;
+}
+
+#welcome p {
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+  color: #fff;
+}
+
+@media (min-width: 1025px) {
+  #welcome {
+    margin-top: -136%;
+  }
+  #welcome p {
+    font-size: 1em;
+  }
+}
+
+/*BELIEFS*/
+h3 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#beliefs {
+  background: #FFF;
+  text-align: center;
+  padding: 9em 0em;
+  margin-top: 27%;
+  padding-bottom: 7em;
+  -webkit-transform: skew(0deg, -6deg);
+  transform: skew(0deg, -6deg);
+  /* Standard syntax */
+}
+
+.beliefstext {
+  color: #000;
+  -webkit-transform: skew(0deg, 6deg);
+  transform: skew(0deg, 6deg);
+  position: relative;
+  z-index: 1;
+}
+
+.webelieve {
+  padding: 0.5em 1em;
+  line-height: 220%;
+}
+
+h4 {
+  font-family: "freight-display-pro", serif;
+  font-weight: 700;
+  font-size: 1.8em;
+  letter-spacing: 0.5px;
+  line-height: 120%;
+}
+
+#beliefs span {
+  font-size: 0.5em;
+  display: inline;
+}
+
+.belieficons img {
+  padding: 2.5em;
+}
+
+.belieficons li {
+  display: inline;
+  float: left;
+  padding: 2em;
+  -webkit-transform: skew(0deg, 0deg);
+  transform: skew(0deg, 0deg);
+  /* Standard syntax */
+}
+
+.belieficons li p {
+  font-size: 0.86em;
+  line-height: 200%;
+}
+
+@media (min-width: 769px) {
+  .belieficons img {
+    padding: 1em;
+  }
+  .belieficons li {
+    display: inline;
+    float: left;
+    margin: 0em;
+  }
+}
+
+@media (min-width: 1025px) {
+  #beliefs {
+    margin-top: 10%;
+  }
+  .webelieve {
+    padding: 0.5em 6em;
+  }
+}
+
+/*RITUALS*/
+h2 {
+  font-family: "freight-display-pro", serif;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  font-size: 3em;
+}
+
+#rituals {
+  padding-bottom: 3em;
+}
+
+#rituals article {
+  padding: 1em;
+  padding-top: 2em;
+}
+
+#rituals img {
+  margin-bottom: 2em;
+}
+
+.humancentered {
+  background: #fff;
+}
+
+.experience {
+  background: #6AB7E1;
+  color: white;
+  padding: 0.5em;
+}
+
+.datadesign {
+  background: #D85B56;
+  color: white;
+  padding: 0.5em;
+}
+
+#rituals p {
+  line-height: 200%;
+  font-size: 0.9em;
+}
+
+@media (min-width: 1025px) {
+  #rituals {
+    padding-bottom: 0em;
+  }
+  #rituals p {
+    line-height: 220%;
+    font-size: 1em;
+  }
+  #rituals h2 {
+    margin-top: 3em;
+    line-height: 100%;
+  }
+  #rituals img {
+    padding: 0em;
+  }
+}
+
+/*SERVICES*/
+.handy img {
+  opacity: 0.2;
+  z-index: -3;
+  margin-top: -50em;
+  padding-bottom: 2em;
+}
+
+#services {
+  background: #FFFAF0;
+  padding: 6em 1em;
+  -webkit-transform: skew(0deg, 6deg);
+  transform: skew(0deg, 6deg);
+  /* Standard syntax */
+}
+
+#services ul {
+  padding-left: 1em;
+  padding-top: 2em;
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 180%;
+  font-size: 1em;
+  color: #38138E;
+  -webkit-transform: skew(0deg, -6deg);
+  transform: skew(0deg, -6deg);
+  position: relative;
+  z-index: 1;
+}
+
+#services h1 {
+  color: #38138E;
+  line-height: 100%;
+  margin-left: 0.2em;
+  z-index: 3;
+  -webkit-transform: skew(0deg, -6deg);
+  transform: skew(0deg, -6deg);
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 1025px) {
+  #services ul {
+    margin-top: 33%;
+    margin-left: -38%;
+  }
+  .handy img {
+    margin-top: -20em;
+    padding-bottom: 4em;
+    padding-left: 3em;
+  }
+}
+
+@media (min-width: 1025px) {
+  #services ul {
+    margin-top: 46%;
+    margin-left: -2%;
+  }
+}
+
+/*BELIEVERS*/
+#believers {
+  background: #FFFAF0;
+  padding: 4em 3em;
+  padding-top: 5em;
+  color: #38138E;
+  margin-top: -32%;
+  text-align: center;
+}
+
+#believers p {
+  line-height: 220%;
+}
+
+#believers h3 {
+  color: #38138E;
+}
+
+#believers h4 {
+  color: #38138E;
+}
+
+.clients img {
+  padding: 1em;
+}
+
+.clients li {
+  display: inline;
+  float: left;
+  padding: 1.2em;
+}
+
+@media (min-width: 1025px) {
+  .clients img {
+    padding: 0.5em;
+  }
+  .clients li {
+    display: inline;
+    float: left;
+    padding: 1.2em;
+  }
+}
+
+@media (min-width: 1025px) {
+  #believers {
+    padding: 6em 0em;
+    margin-top: -8%;
+  }
+}

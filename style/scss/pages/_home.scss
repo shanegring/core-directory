@@ -76,7 +76,7 @@ h1 {
 
 
 
-@media (min-width: 992px) {
+@include media ('>desktop') {
 
 	#welcome{
   		margin-top:-136%;}

@@ -43,7 +43,7 @@ h2 {
 }
 
 
-@media (min-width: 992px) {
+@include media ('>desktop') {
 
 	#rituals {
 		padding-bottom: 0em;}
