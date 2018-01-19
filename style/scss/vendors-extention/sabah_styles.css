@@ -122,7 +122,7 @@ h3 {
 #beliefs {
 	background: #FFF;
 	text-align: center;
-	padding: 9em 1.5em;
+	padding: 9em 0em;
 	margin-top: 27%;
 	padding-bottom: 7em;
 
@@ -164,7 +164,6 @@ h4 {
 	display: inline;
 }
 
-
 .belieficons img {
 	padding: 2.5em;
 }
@@ -173,7 +172,7 @@ h4 {
 .belieficons li{
 	display: inline;
 	float: left;
-	padding: 0.5em;
+	padding: 2em;
 
   -ms-transform: skew(0deg,0deg);
   -webkit-transform: skew(0deg,0deg); 
@@ -182,6 +181,7 @@ h4 {
 
 .belieficons li p {
 	font-size: 0.86em;
+	line-height: 200%;
 }
 
 
@@ -197,12 +197,17 @@ h2 {
 	font-size: 3em;
 }
 
+#rituals {
+	padding-bottom: 3em;
+}
+
 #rituals article {
-	padding:2em;
+	padding:1em;
+	padding-top: 2em;
 }
 
 #rituals img {
-	padding-bottom: 2em;
+	margin-bottom: 2em;
 }
 
 .humancentered {
@@ -294,9 +299,12 @@ h2 {
 	padding: 4em 3em;
 	padding-top: 5em;
 	margin-top: -10%;
-	line-height: 220%;
 	color: #38138E;
 	text-align: center;
+}
+
+#believers p {
+	line-height: 220%;
 }
 
 #believers h3 {
@@ -328,7 +336,7 @@ h2 {
 .clients li{
 	display: inline;
 	float: left;
-	padding: 1.5em;
+	padding: 1.2em;
 }
 
 form {
@@ -365,6 +373,22 @@ label {
 
 
 
+@media (min-width: 768px) {
+
+.belieficons img {
+	padding: 1em;
+}
+
+.belieficons li{
+	display: inline;
+	float: left;
+	margin:0em;}
+
+
+}
+
+
+
 
 
 
@@ -385,6 +409,9 @@ label {
 	.webelieve {
 		padding: 0.5em 6em;}
 
+	#rituals {
+		padding-bottom: 0em;}
+
 	#rituals p {
 		line-height: 220%;
 		font-size: 1em;}
@@ -398,16 +425,21 @@ label {
 	}		
 
 	#services ul {
-  		margin-top: 46%;
-  		margin-left: -58%;}
+  		margin-top: 33%;
+  		margin-left: -38%;}
 
 	.handy img {
 		margin-top: -20em;
 		padding-bottom: 2em;
 		padding-left: 3em;}
 
+}
 
+@media (min-width: 1025px) and (max-width: 1213px ) {
 
+	#services ul {
+  		margin-top: 46%;
+  		margin-left: -2%;}
 
 }
 
