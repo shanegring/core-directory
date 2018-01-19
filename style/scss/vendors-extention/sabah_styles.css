@@ -58,7 +58,7 @@ nav {
 
 #welcome {
   background: transparent;
-  margin-top:-137%;
+  margin-top:-127%;
   padding-top:0%;
   padding-bottom:14%;
 
@@ -76,8 +76,7 @@ nav {
 
 /* SASS*/
 @media (max-width: 575.99px) {
-	#welcome{
-		margin-top:-93%;}
+
 }
 
 
@@ -285,7 +284,7 @@ h2 {
   letter-spacing: 1px;
   line-height: 180%;
   font-size: 1em;
-  color: #D85B56;
+  color: #38138E;
 
 
 
@@ -297,8 +296,8 @@ h2 {
 }
 
 #services h1 {
-  color: #D85B56;
-  line-height: 100%;
+  color: #38138E;
+  line-height: 95%;
   margin-left: 0.2em;
   z-index: 3;
 
@@ -308,28 +307,6 @@ h2 {
     position:relative;
     z-index:1; 
 }
-
-
-
-
-@media (min-width: 992px) {
-
-
-	#rituals h2{
-		margin-top: 4em;}
-
-	#services ul {
-  		margin-top: 60%;
-  		margin-left: -50%;}
-
-	.handy img {
-		margin-top: -20em;
-		padding-bottom: 2em;
-		padding-left: 3em;}
-
-}
-
-
 
 
 
@@ -410,6 +387,32 @@ label {
 	padding:5em 3em;
 }
 
+
+
+
+
+
+@media (min-width: 992px) {
+
+	#welcome{
+  		margin-top:-136%;}
+
+	#rituals h2{
+		margin-top: 4em;}
+
+	#services ul {
+  		margin-top: 46%;
+  		margin-left: -58%;}
+
+	.handy img {
+		margin-top: -20em;
+		padding-bottom: 2em;
+		padding-left: 3em;}
+
+
+
+
+}
 
 
 
