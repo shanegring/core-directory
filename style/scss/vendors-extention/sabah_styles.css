@@ -248,8 +248,7 @@ h2 {
 
 #services {
 	background: #FFFAF0;
-	padding: 8em 1em;
-
+	padding: 6em 1em;
 
   -ms-transform: skew(0deg,6deg);
   -webkit-transform: skew(0deg,6deg); 
@@ -278,7 +277,7 @@ h2 {
 
 #services h1 {
   color: #38138E;
-  line-height: 95%;
+  line-height: 100%;
   margin-left: 0.2em;
   z-index: 3;
 
@@ -298,8 +297,8 @@ h2 {
 	background: #FFFAF0;
 	padding: 4em 3em;
 	padding-top: 5em;
-	margin-top: -10%;
 	color: #38138E;
+	margin-top: -32%;
 	text-align: center;
 }
 
@@ -373,21 +372,28 @@ label {
 
 
 
+
+
 @media (min-width: 768px) {
 
 .belieficons img {
 	padding: 1em;
 }
 
+
 .belieficons li{
 	display: inline;
 	float: left;
 	margin:0em;}
 
+.clients img {
+	padding: 0.5em;}
 
+.clients li{
+	display: inline;
+	float: left;
+	padding: 1.2em;
 }
-
-
 
 
 
@@ -430,8 +436,13 @@ label {
 
 	.handy img {
 		margin-top: -20em;
-		padding-bottom: 2em;
+		padding-bottom: 4em;
 		padding-left: 3em;}
+
+	#believers {
+		padding: 6em 0em;
+		margin-top: -8%;}
+
 
 }
 
