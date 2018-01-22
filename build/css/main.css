@@ -9255,13 +9255,13 @@ select.selectpicker {
   float: none;
 }
 
-h1, h2, h3, h4, h5, h6, th, td, input, textarea, select, option, legend, fieldset, button, optgroup {
+h1, h2, h4, h5, h6, th, td, input, textarea, select, option, legend, fieldset, button, optgroup {
   font-family: "freight-display-pro", serif;
   font-style: normal;
 }
 
-body, p {
-  font-family: "Roboto Mono", monospace;
+body, p,  h3, input, textarea {
+  font-family: "roboto-mono", monospace;
 }
 
 body {
@@ -9361,7 +9361,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Roboto Mono", monospace;
+  font-family: "roboto-mono", monospace;
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -9403,14 +9403,14 @@ h4 {
 }
 
 h5 {
-  font-family: "Roboto Mono", monospace;
+  font-family: "roboto-mono", monospace;
   font-size: 1em;
   /* 1.125x body copy size = 18px */
   line-height: 1.0;
 }
 
 h6 {
-  font-family: "Roboto Mono", monospace;
+  font-family: "roboto-mono", monospace;
   font-size: .6em;
   /* 1.125x body copy size = 18px */
   line-height: 1em;
@@ -9418,7 +9418,7 @@ h6 {
 
 @media (min-width: 769px) {
   h6 {
-    font-family: "Roboto Mono", monospace;
+    font-family: "roboto-mono", monospace;
     font-size: 1em;
     line-height: 1em;
     /* (22px / 18px */
@@ -9426,11 +9426,11 @@ h6 {
 }
 
 .form-group {
-  font-family: "Roboto Mono", monospace;
+  font-family: "roboto-mono", monospace;
 }
 
 p {
-  font-family: "Roboto Mono", monospace;
+  font-family: "roboto-mono", monospace;
   font-size: 1em;
   letter-spacing: 0.5px;
   line-height: 200%;
@@ -9511,7 +9511,7 @@ mark {
 nav {
   background: #38138E;
   text-align: center;
-  font-family: "Roboto Mono", monospace;
+  font-family: "roboto-mono", monospace;
   text-transform: uppercase;
   font-size: 1.1em;
   letter-spacing: 2px;
@@ -9560,7 +9560,7 @@ nav {
 }
 
 .welcomelist {
-  font-family: "Roboto Mono", monospace;
+  font-family: "roboto-mono", monospace;
   font-size: 1em;
 }
 
@@ -9581,7 +9581,7 @@ h1 {
 }
 
 #welcome p {
-  font-family: "Roboto Mono", monospace;
+  font-family: "roboto-mono", monospace;
   letter-spacing: 1px;
   font-size: 1em;
   color: #fff;
@@ -9599,7 +9599,7 @@ h1 {
 
 /*BELIEFS*/
 h3 {
-  font-family: "Roboto Mono", monospace;
+  font-family: "roboto-mono", monospace;
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -9716,7 +9716,7 @@ h2 {
   padding: 1.5em;
   padding-top: 9em;
   margin-left: -38%;
-  font-family: "Roboto Mono", monospace;
+  font-family: "roboto-mono", monospace;
   font-style: italic;
   letter-spacing: 1px;
   line-height: 180%;
@@ -9782,7 +9782,7 @@ h2 {
 
 form {
   text-align: left;
-  font-family: "Roboto Mono", monospace;
+  font-family: "roboto-mono", monospace;
   letter-spacing: 1px;
   padding-bottom: 3em;
   padding-top: 5em;
@@ -9790,7 +9790,7 @@ form {
 
 .form-group {
   padding-bottom: 1em;
-  font-family: "Roboto Mono", monospace;
+  font-family: "roboto-mono", monospace;
 }
 
 label {
@@ -9802,7 +9802,7 @@ label {
 .function-foot {
   background: #38138E;
   color: #FFFAF0;
-  font-family: "Roboto Mono", monospace;
+  font-family: "roboto-mono", monospace;
   letter-spacing: 1px;
   font-size: 0.8em;
   padding: 5em 3em;
@@ -9811,7 +9811,7 @@ label {
 nav {
   background: #38138E;
   text-align: center;
-  font-family: "Roboto Mono", monospace;
+  font-family: "roboto-mono", monospace;
   text-transform: uppercase;
   font-size: 1.1em;
   letter-spacing: 2px;
@@ -9843,7 +9843,7 @@ nav {
 .function-foot {
   background: #38138E;
   color: #FFFAF0;
-  font-family: "Roboto Mono", monospace;
+  font-family: "roboto-mono", monospace;
   letter-spacing: 1px;
   font-size: 0.8em;
   padding: 5em 3em;
@@ -9887,7 +9887,7 @@ body {
 }
 
 p {
-  font-family: "Roboto Mono", monospace;
+  font-family: "roboto-mono", monospace;
   font-size: 14px;
   letter-spacing: 0.5px;
   line-height: 200%;
@@ -9919,7 +9919,7 @@ mark {
 }
 
 .welcomelist {
-  font-family: "Roboto Mono", monospace;
+  font-family: "roboto-mono", monospace;
   font-size: 1em;
   letter-spacing: 1px;
 }
@@ -9940,7 +9940,7 @@ h1 {
 }
 
 #welcome p {
-  font-family: "Roboto Mono", monospace;
+  font-family: "roboto-mono", monospace;
   letter-spacing: 1px;
   font-size: 0.9em;
   color: #fff;
@@ -9957,7 +9957,7 @@ h1 {
 
 /*BELIEFS*/
 h3 {
-  font-family: "Roboto Mono", monospace;
+  font-family: "roboto-mono", monospace;
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -10116,7 +10116,7 @@ h2 {
 #services ul {
   padding-left: 1em;
   padding-top: 2em;
-  font-family: "Roboto Mono", monospace;
+  font-family: "roboto-mono", monospace;
   font-style: italic;
   letter-spacing: 1px;
   line-height: 180%;
