@@ -10086,7 +10086,7 @@ h2 {
 
 #services h1 {
   color: #38138E;
-  line-height: 100%;
+  line-height: 90%;
   margin-left: 0.2em;
   z-index: 3;
 
@@ -10120,7 +10120,7 @@ h2 {
 @media (min-width: 1025px) {
   #services ul {
     margin-top: 33%;
-    margin-left: -38%;
+    margin-left: -40%;
   }
 
   .handy img {
