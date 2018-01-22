@@ -9,12 +9,12 @@ $blue: #6AB7E1;
 @import './vendors/include-media/dist/include-media';
 
 
-h1, h2, h3, h4, h5, h6, th, td, input, textarea, select, option, legend, fieldset, button, optgroup  {
+h1, h2, h4, h5, h6, th, td, select, option, legend, fieldset, button, optgroup  {
 font-family: "freight-display-pro", serif;
 font-style: normal;
 }
 
-body, p {
+body, p, h3, input, textarea {
 font-family: "Roboto Mono", monospace;
 }
 
