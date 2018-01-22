@@ -9989,7 +9989,7 @@ h4 {
     margin-top: 10%;
   }
   .webelieve {
-    padding: 0.5em 6em;
+    padding: 0.5em 10em;
   }
 }
 
@@ -10110,13 +10110,6 @@ h2 {
     font-size: 5.75em;
     line-height: 1.25;
   }
-}
-
-
-
-
-@media (min-width: 1025px) {
-
 }
 
 
