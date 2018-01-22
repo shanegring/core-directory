@@ -10116,23 +10116,21 @@ h2 {
 
 
 @media (min-width: 1025px) {
-  #services ul {
-    margin-top: 33%;
-    margin-left: -38%;
-  }
-  .handy img {
-    margin-top: -20em;
-    padding-bottom: 4em;
-    padding-left: 3em;
-  }
+
 }
 
 
 
 @media (min-width: 1025px) {
   #services ul {
-    margin-top: 46%;
-    margin-left: -2%;
+    margin-top: 33%;
+    margin-left: -38%;
+  }
+
+  .handy img {
+    margin-top: -20em;
+    padding-bottom: 4em;
+    padding-left: 3em;
   }
 }
 
