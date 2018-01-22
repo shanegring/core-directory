@@ -9959,10 +9959,12 @@ h4 {
   padding: 2.5em;
 }
 
+.belieficons ul {
+  margin: 2em 0em;
+}
+
 .belieficons li {
-  display: inline;
-  float: left;
-  padding: 2em;
+  padding: 3em;
   -webkit-transform: skew(0deg, 0deg);
   transform: skew(0deg, 0deg);
   /* Standard syntax */
