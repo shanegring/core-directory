@@ -9681,7 +9681,7 @@ h2 {
 #services ul {
   padding: 1.5em;
   padding-top: 9em;
-  margin-left: -38%;
+  margin-left: 0%;
   font-family: "roboto-mono", monospace;
   font-style: italic;
   letter-spacing: 1px;
@@ -10070,12 +10070,12 @@ h2 {
 #services ul {
   padding-left: 1em;
   padding-top: 2em;
-  font-family: "roboto-mono", monospace;
   font-style: italic;
   letter-spacing: 1px;
   line-height: 180%;
   font-size: 1em;
   color: #38138E;
+
   -webkit-transform: skew(0deg, -6deg);
   transform: skew(0deg, -6deg);
   position: relative;
@@ -10087,6 +10087,7 @@ h2 {
   line-height: 100%;
   margin-left: 0.2em;
   z-index: 3;
+
   -webkit-transform: skew(0deg, -6deg);
   transform: skew(0deg, -6deg);
   position: relative;
@@ -10121,7 +10122,7 @@ h2 {
   }
 
   .handy img {
-    margin-top: -20em;
+    margin-top: -25em;
     padding-bottom: 4em;
     padding-left: 3em;
   }
@@ -10130,24 +10131,9 @@ h2 {
 
 
 /*BELIEVERS*/
-#believers {
-  background: #FFFAF0;
-  padding: 4em 3em;
-  padding-top: 5em;
-  color: #38138E;
-  margin-top: -32%;
-  text-align: center;
-}
 
-#believers p {
-  line-height: 220%;
-}
 
-#believers h3 {
-  color: #38138E;
-}
-
-#believers h4 {
+#believers h3, h4 {
   color: #38138E;
 }
 
